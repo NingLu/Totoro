@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<testData>
+		<testFolderPath>/storage/sdcard0/tiebaTest/</testFolderPath>
+		<!-- ios, android, pc -->
+		<osType>pc</osType>
+        <loopCount>1</loopCount>
+		<isDownloadApp>false</isDownloadApp>
+		<useProxy>false</useProxy>
+		<autoTakeScreenshot>false</autoTakeScreenshot>
+		<proxyPath>/User/lvning/Tools/mitmproxy/</proxyPath>
+		<monkeyData>
+			<!-- touchPercent+motionPercent+keyPercent总和必须等于100 -->
+			<touchEventPercent>50</touchEventPercent>
+			<motionEventPercent>40</motionEventPercent>
+			<keyEventPercent>10</keyEventPercent>
+		</monkeyData>
+		<!-- NORMAL 正常执行 -->
+		<!--<runType>FC_FULL</runType>-->
+		<runType>NORMAL</runType>
+		<testVersion>8.4.0</testVersion>
+		<androidData>
+			<needAndroidLog>true</needAndroidLog>
+			<adbPath>/Volumes/Transcend/androidSDK/platform-tools/</adbPath>
+			<deviceName>RedMiNote2</deviceName>
+			<platformVersion>5.0.2</platformVersion>
+		    <performance>
+		        <cpu>false</cpu>
+		        <memory>false</memory>
+		        <battery>false</battery>
+		    </performance>
+			<test custom="YES">
+				<testSuite>your_test_suite</testSuite>
+				<testCase>your_test_case</testCase>
+			</test>
+		</androidData>
+		<iosData>
+			<udid>your_udid</udid>
+			<deviceName>iPhone 5c</deviceName>
+			<platformVersion>9.3.4</platformVersion>
+			<realDeviceLogger>/usr/local/lib/node_modules/deviceconsole/deviceconsole</realDeviceLogger>
+			<test custom="NO">
+				<testSuite>your_test_suite</testSuite>
+				<testCase>your_test_case</testCase>
+			</test>
+		</iosData>
+		<pcData>
+			<test custom="YES">
+				<testSuite>your_test_suite</testSuite>
+				<testCase>your_test_case</testCase>
+			</test>
+		</pcData>
+	</testData>
+</config>
+

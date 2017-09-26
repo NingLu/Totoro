@@ -1,0 +1,66 @@
+package com.test.totoro.utils;
+
+import java.io.File;
+
+public class Const {
+    public static final String DEMO_JENKINS_URL = "http://ci.demo.jenkins.com";
+    public static final String DEMO_APP = "com.lvn.demo/MainActivity";
+    public static final String REPORT_FOLDER_NAME = "Reports";
+    public static final int KILL_THREAD_COUNT = 3;
+    public static final String ANDROID_FILE_NAME = "demo.apk";
+    public static final String IOS_FILE_NAME = "resigned.ipa";
+    public static final String ANDROID_APP_URL = "http://ci.demo.com/job/demo_job/lastSuccessfulBuild/artifact/gen_apks/demo.apk";
+    public static final String IOS_APP_URL = "http://ci.demo.com/job/50/artifact/output/resigned.ipa";
+    public static final String ANDROID = "android";
+    public static final String IOS = "ios";
+    public static final String PC = "pc";
+    public static final String WAP = "wap";
+    public static final String UNKNOWN_OS = "unknown";
+    public static final String USER_NAME = "lvning";
+    public static final String PWD = "test2015";
+    public static final String IDENTIFY_CODE = "aaaa";
+    public static final String URL_TYPE = "url_type";
+    public static final String MOB_OS = "mob_os";
+    public static final String MOB_OS_ANDROID = "2";
+    public static final String MOB_OS_IOS = "1";
+    public static final String URL_TYPE_GENERAL = "1";
+    public static final String URL_TYPE_IOS = "2";
+    public static final String URL_TYPE_ANDROID = "3";
+    public static final String SYSTEM_SETTINGS = "com.android.settings/.MiuiSettings";
+    public static final String IOS_CASE_PACKAGE = "com.amazon.fba.totoro.testcase.ios";
+    public static final String ANDROID_CASE_PACKAGE = "com.amazon.fba.totoro.testcase.android";
+    public static final String CASE_PACKAGE = "com.amazon.fba.totoro.testcase";
+    public static final String BOTH = "both";
+    public static final String FIND_TYPE_TEXT = "text";
+    public static final String FIND_TYPE_ID = "id";
+    public static final String FIND_TYPE_CLASS = "class";
+    public static final String SLIDE_TYPE_UP = "up";
+    public static final String SLIDE_TYPE_DOWN = "down";
+    public static final String IOS_IPA_PATH = "/Users/lvning/Desktop/testcode/Totoro/apps/abc_1784.ipa";
+    public static final int PASS = 1;
+    public static final int FAIL = 2;
+    public static final int IGNORE = 3;
+    public static final int UNKNOWN = 4;
+    public static final String LOG_TAG = "#@####";
+    public static final String CASE_RESULT = "result";
+    public static final String START_TIME = "startTime";
+    public static final String END_TIME = "endTime";
+    public static final String HTML_SUFFIX = ".html";
+    public static final String REPORT_HEADER = "report/ReportHead.html";
+    public static final String REPORT_ROW = "report/row.html";
+    public static final String REPORT_HEADER_SUMMARY = "report/SummaryReportHead.html";
+    public static final String ADS_PROP = "nativeAdsList.properties";
+    public static final String DEFAULT_SRC = "-1";
+    public static final String DEFAULT_MT = "-1";
+    public static final String NO_MT = "NO_MT";
+    public static final String ANDROID_BROWSER = "com.android.browser/.BrowserActivity";
+    public static final String CHROME = "com.android.chrome/com.google.android.apps.chrome.Main";
+    public static final String BD_ID = "id";
+    public static String ROOT_FOLDER = "";
+    public static String APP_PACKAGE = "com.app.demo";
+    public static String BUNDLE_ID = "com.bundle.id";
+    public static String APP_LAUNCH_ACTIVITY = ".LogoActivity";
+    public static String ADB_PATH = null;
+    public static String SERVER_STUB_PATH = "hooks" + File.separator + "testcase" + File.separator + "demo" + File.separator + "VipAuto" + File.separator;
+
+}

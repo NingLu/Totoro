@@ -1,0 +1,26 @@
+12:09:45.836 INFO  - needAndroidLog: true
+12:09:45.837 INFO  - adbPath: /Volumes/Transcend/androidSDK/platform-tools/
+12:09:45.837 INFO  - osType: pc
+12:09:45.838 INFO  - needAndroidLog: false
+12:09:45.838 INFO  - useProxy: false
+12:09:45.838 INFO  - autoTakeScreenshot: false
+12:09:45.838 INFO  - proxyPath: /User/lvning/Tools/mitmproxy/
+12:09:45.839 INFO  - testFolderPath: /storage/sdcard0/tiebaTest/
+12:09:45.839 INFO  - osType: 1
+12:09:45.926 INFO  - runType: NORMAL
+12:09:45.927 INFO  - UDID: your_udid
+12:09:46.028 INFO  - No appium installed by npm
+12:09:46.029 INFO  - monkeyData.touchEventPercent: 50
+12:09:46.030 INFO  - monkeyData.motionEventPercent: 40
+12:09:46.030 INFO  - monkeyData.keyEventPercent: 10
+12:09:46.031 INFO  - Test Version: 8.4.0
+12:09:46.031 DEBUG - OS type: pc
+12:09:46.038 INFO  - ==========测试统计数据==========
+12:09:46.038 INFO  - 开始: 1504498186035
+12:09:46.052 INFO  - 结束: 1504498186038
+12:09:46.054 INFO  - 测试类: com.amazon.fba.totoro.testcase.pc.PCSCTest
+12:09:46.054 INFO  - Total: 1
+12:09:46.055 INFO  - Pass: 0
+12:09:46.055 INFO  - Fail: 0
+12:09:46.056 INFO  - Ignore:0
+12:09:46.058 INFO  - ==========PCSCTest setUpBeforeClass==========

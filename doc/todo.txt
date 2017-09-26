@@ -1,0 +1,11 @@
+1. fail case支持设置重跑次数
+2. 自定义执行case时, 所有case的withBeforeClass都会执行一遍,需要做过滤
+3. report生成,建议使用jquery tmpl实现,短期可以在java的reportWriter中直接处理 --- done
+    * 分为summary.html和具体的detail.html
+    * 支持图片展示
+4. ios自动下载安装包后,需要将其重命名为TBClient.ipa --- done
+5. BaseCommon和Common梳理,将业务相关的拆到common中 --- done
+6. 配置参数优化 --- done
+    * 将代码中配置的参数都迁移到Config.xml
+    * 增加replaceParams.py的支持
+7. 开发intelliJ插件,用于使用图形化界面配置Config.xml

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 请勿修改此文件, 只用于ci -->
+<!-- 本地调试时请修改conf/Config.xml -->
+<config>
+	<testData>
+		<testFolderPath>/storage/sdcard0/tiebaTest/</testFolderPath>
+		<!-- ios, android, pc -->
+		<osType>android</osType>
+        <loopCount>1</loopCount>
+		<isDownloadApp>true</isDownloadApp>
+		<useProxy>false</useProxy>
+		<autoTakeScreenshot>false</autoTakeScreenshot>
+		<proxyPath>/User/baidu/Tools/mitmproxy/</proxyPath>
+		<monkeyData>
+			<!-- touchPercent+motionPercent+keyPercent总和必须等于100 -->
+			<touchEventPercent>50</touchEventPercent>
+			<motionEventPercent>40</motionEventPercent>
+			<keyEventPercent>10</keyEventPercent>
+		</monkeyData>
+		<!-- FC_FULL: 只执行所有凤巢case（即带有NativeAds标签的case),此模式下指定case和suite无效 -->
+		<!-- NORMAL 正常执行 -->
+		<runType>NORMAL</runType>
+		<testVersion>8.4.0</testVersion>
+		<androidData>
+			<needAndroidLog>true</needAndroidLog>
+			<adbPath>/Volumes/Transcend/androidSDK/platform-tools/</adbPath>
+			<deviceName>RedMiNote2</deviceName>
+			<platformVersion>5.0.2</platformVersion>
+			<testNeedToReplacedAndroid/>
+		</androidData>
+		<iosData>
+			<udid>fc4c9170bfbc067851b4080b1c491c0e1abf4874</udid>
+			<deviceName>RedMiNote2</deviceName>
+			<platformVersion>5.0.2</platformVersion>
+			<testNeedToReplacedIos/>
+		</iosData>
+		<pcData>
+			<testNeedToReplacedPC/>
+		</pcData>
+	</testData>
+</config>
+

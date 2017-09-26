@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="warn">
+    <properties>
+		<property name="filename">${sys:LOG_FILENAME}</property>
+	</properties>
+	<appenders>
+		<!-- only error messages can be shown in console -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout charset="UTF-8" pattern="%d{HH:mm:ss.SSS} %-5level - %msg%n" />
+		</Console>
+		<File name="File" fileName="${filename}" append="false">
+		    <PatternLayout charset="UTF-8" pattern="%d{HH:mm:ss.SSS} %-5level - %msg%n" />
+		</File>
+	</appenders>
+	<loggers>
+		<root level="trace">
+			<appender-ref ref="Console" />
+			<appender-ref ref="File" />
+		</root>
+	</loggers>
+</configuration>
